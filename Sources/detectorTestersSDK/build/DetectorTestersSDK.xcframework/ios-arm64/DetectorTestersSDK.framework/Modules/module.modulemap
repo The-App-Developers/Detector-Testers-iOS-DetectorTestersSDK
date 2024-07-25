@@ -1,0 +1,6 @@
+framework module DetectorTestersSDK {
+  umbrella header "DetectorTestersSDK.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,21 @@
+
+xcodebuild archive \            
+-scheme DetectorTestersSDK \
+-configuration Release \                                     
+-destination 'generic/platform=iOS Simulator' \                         
+-archivePath './build/DetectorTestersSDK.framework-iphonesimulator.xcarchive' \
+SKIP_INSTALL=NO \                              
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+xcodebuild archive \            
+-scheme DetectorTestersSDK \
+-configuration Release \
+-destination 'generic/platform=iOS' \
+-archivePath './build/DetectorTestersSDK.framework-iphoneos.xcarchive' \
+SKIP_INSTALL=NO \                    
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES    
+
+xcodebuild -create-xcframework \
+-framework './build/DetectorTestersSDK.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/DetectorTestersSDK.framework' \
+-framework './build/DetectorTestersSDK.framework-iphoneos.xcarchive/Products/Library/Frameworks/DetectorTestersSDK.framework' \
+-output './build/DetectorTestersSDK.xcframework'

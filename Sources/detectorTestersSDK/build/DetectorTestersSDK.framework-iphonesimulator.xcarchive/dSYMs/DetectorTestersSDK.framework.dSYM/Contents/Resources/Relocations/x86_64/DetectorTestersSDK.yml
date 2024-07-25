@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/Connor-Tappable/Library/Developer/Xcode/DerivedData/DetectorTestersSDK-gyebcdljtqkfmifdgrqvmrfrjins/Build/Intermediates.noindex/ArchiveIntermediates/DetectorTestersSDK/InstallationBuildProductsLocation/Library/Frameworks/DetectorTestersSDK.framework/DetectorTestersSDK'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x303DF, size: 0x8, addend: 0x0, symName: _DetectorTestersSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xEF0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x30414, size: 0x8, addend: 0x0, symName: _DetectorTestersSDKVersionNumber, symObjAddr: 0x40, symBinAddr: 0xF30, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x30451, size: 0x8, addend: 0x0, symName: '_$s18DetectorTestersSDK9ConstantsV11tempValue54SivgZ', symObjAddr: 0x0, symBinAddr: 0xED0, symSize: 0x10 }
+  - { offsetInCU: 0x5E, offset: 0x30488, size: 0x8, addend: 0x0, symName: '_$s18DetectorTestersSDK9ConstantsVMa', symObjAddr: 0x10, symBinAddr: 0xEE0, symSize: 0xA }
+  - { offsetInCU: 0xF4, offset: 0x3051E, size: 0x8, addend: 0x0, symName: '_$s18DetectorTestersSDK9ConstantsV11tempValue54SivgZ', symObjAddr: 0x0, symBinAddr: 0xED0, symSize: 0x10 }
+...

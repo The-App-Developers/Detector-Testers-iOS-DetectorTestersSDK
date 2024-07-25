@@ -1,0 +1,90 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DetectorTestersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constants",
+        "printedName": "Constants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tempValue54",
+            "printedName": "tempValue54",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DetectorTestersSDK9ConstantsV11tempValue54SivpZ",
+            "mangledName": "$s18DetectorTestersSDK9ConstantsV11tempValue54SivpZ",
+            "moduleName": "DetectorTestersSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DetectorTestersSDK9ConstantsV11tempValue54SivgZ",
+                "mangledName": "$s18DetectorTestersSDK9ConstantsV11tempValue54SivgZ",
+                "moduleName": "DetectorTestersSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18DetectorTestersSDK9ConstantsV",
+        "mangledName": "$s18DetectorTestersSDK9ConstantsV",
+        "moduleName": "DetectorTestersSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Connor-Tappable\/Tappable Projects\/DT\/iOS-SDK\/DetectorTestersSDKPackage\/Sources\/detectorTestersSDK\/DetectorTestersSDK\/entities\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 2,
+      "value": "54"
+    }
+  ]
+}
